@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BusMvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bfac32a87b9498f67f45f8ce83e2ceee92d087c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b39cd2cd8611ff18e83b9a90ae27e1a07f66eb4f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BusMvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BusMvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

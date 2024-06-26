@@ -17,7 +17,7 @@ namespace BusMVC.Controllers
 {
     public class OnibusController : Controller
     {
-        public string uriBase = "http://busApi.somee.com/busapi/OnibusControllerDB/";
+        public string uriBase = "http://eduardoevitor.somee.com/busapi/OnibusControllerDB/";
 
         public async Task<ActionResult> IndexAsync()
         {
@@ -73,7 +73,7 @@ namespace BusMVC.Controllers
                 
                 if (response.StatusCode == System.Net.HttpStatusCode.OK)
                 {
-                    TempData["Mensagem"] = string.Format("Onibus {0}, Id {!} salvo com sucesso!", o.NomeLinha ,serialized);
+                    TempData["Mensagem"] = string.Format("Onibus {0}, Id {1} salvo com sucesso!", o.NomeLinha , o.Id, serialized);
                     return RedirectToAction("Index");
                 }
                 else
